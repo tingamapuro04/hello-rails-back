@@ -1,11 +1,11 @@
-class MessagesController < ApplicationController
+class Api::V1::MessagesController < ApplicationController
   before_action :set_message, only: %i[ show update destroy ]
 
   # GET /messages
   def index
-    @messages = Message.all
+    message = Message.order('RANDOM() DESC').first
 
-    render json: @messages
+    render json: message
   end
 
   # GET /messages/1
