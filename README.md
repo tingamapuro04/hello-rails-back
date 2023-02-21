@@ -1,24 +1,61 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Back-End API
 
-Things you may want to cover:
+>
+This is an api that is used by react in the front-end.
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Ruby on rails
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+### Prerequisites
+- Laptop
+- Text editor
+- Knowledge of ruby, ruby on rails and api endpoints
 
-* ...
+### Setup
+- Clone this project from git hub
+- [Project](https://github.com/tingamapuro04/hello-rails-back)
+- Depending on the machine you use open the terminal and clone the project by running
+- git clone https://github.com/tingamapuro04/hello-rails-back
+- Change the working directory to hello-rails-back by running
+- cd hello-rails-back
+
+
+### Install
+- Once inside the hello-rails-back directory install all the gems and other required resources
+- Run bundle install
+- Run rails server to see the app on your browser
+
+
+## Authors
+
+👤 **Alphonce Mobutu**
+
+- GitHub: [@githubhandle](https://github.com/tingamapuro04)
+- LinkedIn: [@adoyo_alphonce](https://www.linkedin.com/in/adoyo-alphonce/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tingamapuro04/hello-rails-back/issues/10).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
